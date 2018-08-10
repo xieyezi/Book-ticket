@@ -1,0 +1,30 @@
+<!--pages/index/index.wxml-->
+<swiper autoplay='true' interval='2000' duration='1000' indicator-dots='true' circular='true'>
+    <swiper-item wx:for='{{arrSwiper}}' wx:key="1">
+    <navigator url='{{ item.url }}'>
+      <image src='{{ item.src }}'></image>
+    </navigator>
+    </swiper-item>
+</swiper>
+<view class='sugges' >
+ <text>机票预定</text>
+</view>
+<view class='search'>
+  <form bindsubmit='search'>
+    <view class='depAndArr'>
+    <input placeholder='出发城市' value='{{dep}}' name='depcity' class='dep' bindinput ="depInput"></input>
+    <image src='/images/trans.png' class='trans' bindtap='change'></image>
+    <input placeholder='到达城市' value='{{arr}}' name='arrcity' class='arr'  bindinput="arrInput"></input>
+    </view>
+    <view class='deptime'>
+    <!-- <input type='date' placeholder='出发日期'></input> -->
+      <picker mode="date" value="{{date}}" start="2018-07-01" end="2018-07-14" bindchange="bindDateChange">
+            <input  name='deptime' value='{{dates}}' />  
+      </picker>
+    </view>
+    <view class="loginBtnView">  
+              <button class="loginBtn" type='primary' form-type="submit">搜索</button>  
+            </view>
+  </form>
+</view>
+

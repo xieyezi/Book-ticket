@@ -1,0 +1,4 @@
+.center{
+  width: 720rpx;
+  margin: 0 auto;
+}

@@ -1,0 +1,112 @@
+<!--pages/book/book.wxml-->
+<view class='depAndarr'>
+   <text>{{dep}}-{{arr}}</text>
+   <!-- <text>{{flightId}}</text> -->
+</view>
+<view class='content'>
+    <!-- <view  class='book' wx:for='{{result}}' wx:key="1">
+        
+    </view> -->
+    <view  class='flight'>
+         
+        <view class='flightinfo'>
+            <view class='info'>
+              <text>{{flight.depTime}}</text>
+              <text style='color:#c3c3c3'>--------></text>
+              <text>{{flight.arrTime}}</text>
+            </view>
+            <view class='price'>¥{{flight.bestPrice}}</view> 
+         </view>
+         <view class='flightname'>
+            <text>{{port['dep']}}</text>
+            <text style='margin-left:32%'>{{port['arr']}}</text>
+         </view>  
+    </view>
+      <form bindsubmit='bookTicket'>
+          <!--乘机人--> 
+          <input value='{{flightId}}' name='flightId' style='display:none'/>
+          <input value='{{account}}' name='account' style='display:none'/>
+          <view class="inputView">    
+            <label class="loginLab">乘机人:</label>  
+            <input class="inputText" name='name' placeholder="姓名"/>  
+          </view>  
+          <view class="line"></view>  
+        
+          <!--身份证-->  
+          <view class="inputView">  
+            <label class="loginLab">身份证:</label>  
+            <input class="inputText" type='idcard' name='docnum' placeholder="身份证号" />  
+          </view>  
+          <view class="line"></view>
+
+          <!--联系人-->  
+          <view class="inputView">  
+            <label class="loginLab">联系人:</label>  
+            <input class="inputText" name='contact' placeholder="联系人" />  
+          </view>  
+          <view class="line"></view>
+
+          <!--手机号码-->  
+          <view class="inputView">  
+            <label class="loginLab">手机号码:</label>  
+            <input class="inputText" type='idcard'  name='tel' placeholder="手机号码" />  
+          </view>  
+          <view class="line"></view>
+      <!--保险  -->
+      <view  class='flight' style='margin-bottom: 10px;margin-top: 10px;border-bottom: 1px solid #c7c7c7;'>
+         
+        <view class='flightinfo'>
+            <view class='info'>
+                <text style='color:#666;font-size:15px;'>意外险</text>
+                <text style='display:none'>---------</text>
+                <text style='display:none'>23:30</text>
+              </view>
+              <view  class='price' style='color:#666;font-size:15px;'>¥30</view>
+              <view class='radiot'> <radio></radio></view>  
+            </view>
+            <view class='flightname'>
+                <text style='font-size:10px;'>飞行有保障，最高赔付260万元份</text>
+            </view>  
+        </view>
+
+       <!--保险  -->
+      <view  class='flight' style='margin-bottom: 10px;margin-top: 10px;border-bottom: 1px solid #c7c7c7;'>
+         
+        <view class='flightinfo'>
+            <view class='info'>
+                <text style='color:#666;font-size:15px;'>延误险</text>
+                <text style='display:none'>---------</text>
+                <text style='display:none'>23:30</text>
+              </view>
+              <view  class='price' style='color:#666;font-size:15px;'>¥20</view>
+              <view class='radiot'> <radio></radio></view> 
+            </view>
+            <view class='flightname'>
+                <text style='font-size:10px;'>延误有保障，最高赔付200元</text>
+            </view>  
+        </view>
+
+      <!--保险  -->
+      <view  class='flight' style='margin-bottom: 10px;margin-top: 10px;border-bottom: 1px solid #c7c7c7;border-bottom: 1px solid #c7c7c7;'>
+         
+        <view class='flightinfo'>
+            <view class='info'>
+                <text style='color:#666;font-size:15px;'>组合险</text>
+                <text style='display:none'>---------</text>
+                <text style='display:none'>23:30</text>
+              </view>
+              <view  class='price' style='color:#666;font-size:15px;'>¥40</view> 
+              <view class='radiot'> <radio></radio></view> 
+            </view>
+            <view class='flightname'>
+                <text style='font-size:10px;'>航意险+延误险，双重保障</text>
+            </view>  
+        </view>
+          <!--按钮-->  
+          <view class="loginBtnView">  
+            <button class="loginBtn" type='primary' form-type="submit">预订</button>  
+          </view>
+        </form> 
+       
+</view>
+

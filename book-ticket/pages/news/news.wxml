@@ -1,0 +1,26 @@
+<!--pages/news/news.wxml-->
+<swiper autoplay='true' interval='2000' duration='1000' indicator-dots='true' circular='true'>
+    <swiper-item wx:for='{{arrSwiper}}' wx:key="1">
+    <navigator url='{{ item.url }}'>
+      <image src='{{ item.src }}'></image>
+    </navigator>
+    </swiper-item>
+</swiper>
+<view class='search'>
+  <input type='submit' placeholder='今天想了解点什么？' ></input> 
+</view>
+<view class='sugges' >
+ <text>最热资讯</text>
+</view>
+<view class='newbooks'>
+    <view wx:for='{{arr}}' class='book' wx:key="1">
+      <view class='bookimage'>
+         <image src='{{item.images[0]}}'></image>
+      </view>
+      <view class='content'>
+        <text>{{item.title}}</text>
+      </view>
+      
+    </view>
+    
+</view>

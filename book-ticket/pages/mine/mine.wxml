@@ -1,0 +1,95 @@
+<!--pages/mine/mine.wxml-->
+<view class="container1" wx:if='{{!isLogin}}'>
+    <view>
+      <view class="login-icon">  
+        <image class="login-img" src="/images/login.jpg"></image>  
+      </view>  
+      <view class="login-from" >
+      <form bindsubmit='userLogin'>
+          <!--账号-->  
+          <view class="inputView">    
+            <label class="loginLab">账号:</label>  
+            <input class="inputText" name='user' placeholder="请输入账号"/>  
+          </view>  
+          <view class="line"></view>  
+        
+          <!--密码-->  
+          <view class="inputView">  
+            <label class="loginLab">密码:</label>  
+            <input class="inputText" type='password' name='pwd' placeholder="请输入密码" />  
+          </view>  
+          <view class="line"></view>
+
+
+          <!--按钮-->  
+          <view class="loginBtnView">  
+            <button class="loginBtn" type='primary' form-type="submit">登录</button>  
+          </view>
+        </form>   
+      </view>
+    </view> 
+</view>
+
+<view class='container2' wx:else>
+   <view class='head'>
+      <view class='userimg'>
+        <image src='/images/admin01.png'></image>
+      </view>
+       <view class='userIntro'>
+        <text>{{userInfo.account}}</text>
+        <text>身体和灵魂总有一个在路上</text>
+       </view>
+   </view>
+   
+   <view class='content'>
+    <view class='content-item'>
+      <view class='tab' bindtap='personnal'>
+        <view class='tabicon'>
+         <image src='/images/mine1.png'></image>
+        </view>
+        <text>基本资料</text>
+        <view class='tabimg'>
+          <image src='/images/alter.png'></image>
+        </view>
+       </view>
+    </view>
+
+    <view class='content-item'>
+     <view class='tab' bindtap='alterperson'>
+        <view class='tabicon'>
+         <image src='/images/mine2.png'></image>
+        </view>
+        <text>修改资料</text>
+        <view class='tabimg'>
+          <image src='/images/alter.png'></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='content-item'>
+      <view class='tab' bindtap='alterpwd'>
+        <view class='tabicon'>
+         <image src='/images/mine3.png'></image>
+        </view>
+        <text>修改密码</text>
+        <view class='tabimg'>
+          <image src='/images/alter.png'></image>
+        </view>
+      </view>
+    </view>
+    <!-- <view class='exitbtn'>
+     <button type='warn' bindtap='exitLogin'>退出登录</button>
+    </view> -->
+     <view class='content-item'>
+      <view class='tab' bindtap='exitLogin'>
+        <view class='tabicon'>
+         <image src='/images/mine6.png'></image>
+        </view>
+        <text>退出登录</text>
+        <view class='tabimg'>
+          <image src='/images/alter.png'></image>
+        </view>
+      </view>
+     </view>
+   </view>
+</view>

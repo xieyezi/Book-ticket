@@ -1,0 +1,35 @@
+<!--pages/record/record.wxml-->
+<view class='container'>
+  <view class='head'>
+      <view class='userimg'>
+        <image src='/images/admin01.png'></image>
+      </view>
+       <view class='userIntro'>
+        <text>{{userInfo[0].userName}}</text>
+        <text>{{userInfo[0].major}}</text>
+       </view>
+   </view>
+  
+  <view class='content'>
+    <view class='newbooks'>
+      <view wx:for='{{book}}' class='book' wx:key="1">
+          <view class='bookimage'>
+            <image src='/images/book.jpg'></image>
+          </view>
+          <view class='content1'>
+             <view class='bookbanner'>
+               <text>图书ID:</text>
+               <text>图书名:</text>
+             </view>
+             <view class='bookcontent'>
+               <text>{{item.bookId}}</text>
+               <text>{{item.bookName}}</text>
+             </view>
+          </view>
+        
+     </view>
+    
+    </view>
+ </view>
+
+</view>

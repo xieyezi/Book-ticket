@@ -1,0 +1,79 @@
+/* pages/alterpwd/alterpwd.wxss */
+/* pages/detail/detail.wxss */
+page{height: 100%}
+/* 登录之后的页面  */
+.container{
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  flex: 1;
+  width: 100%;
+  background: #99CCFF;
+  /* margin-bottom: 10rpx; */
+}
+.userimg{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10%;
+}
+.userimg image{
+  height: 80px; 
+  width: 80px;
+  border-radius:50%;
+   
+}
+.userIntro{
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+}
+.userIntro text{
+  color: #fff;
+  font-size: 13px;
+}
+.content{
+  flex-direction: column;
+  flex: 2; 
+}
+.content-item{
+  height: 38px;
+  background: #fff;
+  border-bottom:1rpx solid #c3c3c3;
+}
+.tab{
+  margin-top: 16rpx;
+   /* margin-bottom: 9rpx;  */
+}
+.tabicon{
+  margin-left: 15rpx;
+  margin-right: 10rpx;
+  float: left;
+}
+.tabicon image{
+  vertical-align: middle;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+}
+.content-item text{
+  text-align: center;
+  vertical-align: middle;
+  color: #666;
+  font-size: 13px;
+  float: left;
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+}
+.tabimg input{
+ font-size: 13px;
+ color: #666;
+}
+.BtnView{
+  margin-top: 50rpx;
+}
+.BtnView button{
+  font-size: 14px;
+}

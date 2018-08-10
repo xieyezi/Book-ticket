@@ -1,0 +1,42 @@
+/* pages/result/result.wxss */
+.depAndarr {
+  position: relative;
+  top: 10px;
+  height: 25px;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #c3c3c3;
+}
+.flight{
+  margin-top: 20px;
+  border-bottom: 3px solid #c7c7c7;
+}
+.flightinfo{
+  display: flex;
+  flex-direction: row;
+}
+.info{
+  flex: 4;
+  line-height: 15px;
+  color: #000;
+  font-size: 18px;
+  margin-left: 3%;
+}
+.info text{
+  margin-left: 3%;
+}
+.price{
+   flex:1;
+   line-height: 15px;
+   color: orange;
+   font-size: 18px;
+}
+.flightname{
+  margin-top: 5px;
+  margin-left: 5%;
+  line-height: 15px;
+   color: #c3c3c3;
+   font-size: 11px;
+   margin-bottom: 8px;
+}

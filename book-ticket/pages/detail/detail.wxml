@@ -1,0 +1,61 @@
+ <view class='container'>
+  <view class='head'>
+      <view class='userimg'>
+        <image src='/images/admin01.png'></image>
+      </view>
+       <view class='userIntro'>
+        <text>{{userInfo.account}}</text>
+        <text>欢迎你❤️</text>
+       </view>
+   </view>
+  
+   <view class='content'>
+    <view class='content-item' style='display:none'>
+      <view class='tab'>
+        <view class='tabicon'>
+         <image src='/images/id.png'></image>
+        </view>
+        <text>ID:</text>
+        <view class='tabimg'>
+          <text>{{userInfo.account}}</text>
+        </view>
+       </view>
+    </view>
+
+     <view class='content-item'>
+     <view class='tab'>
+        <view class='tabicon'>
+         <image src='/images/name.png'></image>
+        </view>
+        <text>用户名:</text>
+        <view class='tabimg'>
+          <text>{{userInfo.account}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='content-item'>
+      <view class='tab'>
+        <view class='tabicon'>
+         <image src='/images/phone.png'></image>
+        </view>
+        <text>学生电话:</text>
+       <view class='tabimg'>
+          <text>{{userInfo.tel}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='content-item'>
+      <view class='tab'>
+        <view class='tabicon'>
+         <image src='/images/email.png'></image>
+        </view>
+        <text>学生邮箱:</text>
+       <view class='tabimg'>
+          <text>{{userInfo.email}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+ </view>

@@ -1,0 +1,24 @@
+<!--pages/result/result.wxml-->
+<view class='depAndarr'>
+   <text>{{dep}}-{{arr}}</text>
+</view>
+<view class='content'>
+    <!-- <view  class='book' wx:for='{{result}}' wx:key="1">
+        
+    </view> -->
+    <!-- <text>{{port}}</text> -->
+    <view  wx:for='{{flight}}' wx:key="1" class='flight' data-text="{{item.id}}" bindtap='book'>
+        <view class='flightinfo'>
+            <view class='info'>
+              <text>{{item.depTime}}</text>
+              <text style='color:#c3c3c3'>--------></text>
+              <text>{{item.arrTime}}</text>
+            </view>
+            <view class='price'>¥{{item.bestPrice}}</view> 
+         </view>
+         <view class='flightname'>
+            <text>{{port['dep']}}</text>
+            <text style='margin-left:32%'>{{port['arr']}}</text>
+         </view>  
+    </view>  
+</view>

@@ -1,0 +1,66 @@
+<!--pages/alterpwd/alterpwd.wxml-->
+<view class='container'>
+  <view class='head'>
+      <view class='userimg'>
+        <image src='/images/admin01.png'></image>
+      </view>
+       <view class='userIntro'>
+        <text>{{userInfo.account}}</text>
+        <text>出去走走吧</text>
+       </view>
+   </view>
+  
+   <view class='content'>
+   <form bindsubmit='altrPwd'>
+    <view class='content-item' style='display:none'>
+        <view class='tab'>
+          <view class='tabicon'>
+          <image src='/images/id.png'></image>
+          </view>
+          <text>账号:</text>
+          <view class='tabimg'>
+            <input name='id' value='{{userInfo.account}}'></input>
+          </view>
+        </view>
+      </view>
+      <view class='content-item'>
+        <view class='tab'>
+          <view class='tabicon'>
+          <image src='/images/id.png'></image>
+          </view>
+          <text>原密码:</text>
+        <view class='tabimg'>
+            <input name='oldpwd'></input>
+          </view>
+        </view>
+      </view>
+    
+     <view class='content-item'>
+        <view class='tab'>
+          <view class='tabicon'>
+          <image src='/images/id.png'></image>
+          </view>
+          <text>新密码:</text>
+        <view class='tabimg'>
+            <input name='newpwd'></input>
+          </view>
+        </view>
+    </view>
+
+      <view class='content-item'>
+        <view class='tab'>
+          <view class='tabicon'>
+          <image src='/images/id.png'></image>
+          </view>
+          <text>确认密码:</text>
+        <view class='tabimg'>
+            <input name='newpwd'></input>
+          </view>
+        </view>
+      </view>
+      <view class="BtnView">  
+          <button class="loginBtn" type='primary' form-type="submit">提交</button>  
+      </view>
+  </form>
+  </view>
+ </view>

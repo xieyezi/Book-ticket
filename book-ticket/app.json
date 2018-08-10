@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result",
+    "pages/alterpwd/alterpwd",
+    "pages/record/record",
+    "pages/mine/mine",
+    "pages/book/book",
+    "pages/news/news",
+    "pages/detail/detail",
+    "pages/person/person"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#6699CC",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小飞侠订机票",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "订票",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_focus.png"
+    },{
+      "pagePath": "pages/news/news",
+      "text": "资讯",
+      "iconPath": "images/burger.png",
+      "selectedIconPath": "images/burger_focus.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/mine.png",
+      "selectedIconPath": "images/mine_focus.png"
+    }]
+  }
+}

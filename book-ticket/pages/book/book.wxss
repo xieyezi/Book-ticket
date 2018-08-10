@@ -1,0 +1,100 @@
+/* pages/book/book.wxss */
+.depAndarr {
+  position: relative;
+  top: 10px;
+  height: 25px;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #c3c3c3;
+}
+.flight{
+  margin-top: 20px;
+  border-bottom: 3px solid #c7c7c7;
+  margin-bottom: 15px;
+}
+.flightinfo{
+  display: flex;
+  flex-direction: row;
+}
+.info{
+  flex: 4;
+  line-height: 15px;
+  color: #000;
+  font-size: 18px;
+  margin-left: 3%;
+}
+.info text{
+  margin-left: 3%;
+}
+.price{
+   flex:1;
+   line-height: 15px;
+   color: orange;
+   font-size: 18px;
+}
+.radiot{
+  flex: 1;
+  margin-top: -8px;
+}
+.flightname{
+  margin-top: 5px;
+  margin-left: 5%;
+  line-height: 15px;
+   color: #c3c3c3;
+   font-size: 11px;
+   margin-bottom: 8px;
+}
+/*表单内容*/  
+.login-from {  
+  margin-top: 20px;  
+  flex: auto;  
+  height:100%;  
+}  
+  
+.inputView {  
+  background-color: #fff;  
+  line-height: 44px;
+  display: flex;
+  flex-direction: row;
+  /* border-bottom:1rpx solid #c3c3c3; */
+}  
+/*输入框*/  
+.loginLab {  
+  flex: 1; 
+  color: #545454;  
+  font-size: 14px;
+  margin-left: 20rpx;  
+}  
+.inputText {  
+  flex: 3;
+  text-align: left;  
+  margin-top: 11px;  
+  color: #111;  
+  font-size: 14px  
+}  
+.picker text{
+  color: #111;  
+  font-size: 14px 
+}
+.line {  
+  width: 100%;  
+  height: 1px;  
+  background-color: #cccccc;  
+  margin-top: 1px;  
+}  
+/*按钮*/  
+.loginBtnView {  
+  width: 100%;  
+  height: auto;  
+  background-color: #f2f2f2;  
+  margin-top: 0px;  
+  margin-bottom: 0px;  
+  padding-bottom: 0px;  
+}  
+  
+.loginBtn {  
+  width: 100%;  
+  margin-top: 35px;
+  font-size: 13px; 
+} 
