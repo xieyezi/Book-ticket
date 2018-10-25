@@ -13,20 +13,32 @@
 
 
 
-  
+
 
 
 
 
 
   首页:
+
   ![样图](https://i.loli.net/2018/10/25/5bd189d18b0dd.png "demo")
+
+
   订票:
+
   ![样图](https://i.loli.net/2018/10/25/5bd18a520b625.png "demo")
   ![样图](https://i.loli.net/2018/10/25/5bd18a6f4dc8b.png "demo")
   ![样图](https://i.loli.net/2018/10/25/5bd18a8733ad3.png "demo")
   ![样图](https://i.loli.net/2018/10/25/5bd18a9a68f12.png "demo")
+
+
   资讯页:
+
   ![样图](https://i.loli.net/2018/10/25/5bd18aceab473.png "demo")
+
+
+
   个人中心页:
+  
+
   ![样图](https://i.loli.net/2018/10/25/5bd18ae224e36.png "demo")
