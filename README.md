@@ -20,13 +20,13 @@
 
 
   首页:
-  <img src="https://i.loli.net/2018/10/25/5bd189d18b0dd.png" width = "50%" height = "50%" alt="首页" align=left />
+  <img src="https://i.loli.net/2018/10/25/5bd189d18b0dd.png" width = "40%" height = "50%" alt="首页" align=center />
   
   订票:
-  <img src="https://i.loli.net/2018/10/25/5bd18a520b625.png" width = "40%" height = "50%" alt="订票"  align=left	 />
-  <img src="https://i.loli.net/2018/10/25/5bd18a6f4dc8b.png" width = "40%" height = "50%" alt="订票"  align=right	 />
-  <img src="https://i.loli.net/2018/10/25/5bd18a8733ad3.png" width = "40%" height = "50%" alt="订票"  align=left	 />
-  <img src="https://i.loli.net/2018/10/25/5bd18a9a68f12.png" width = "40%" height = "50%" alt="订票"  align=right	 />
+  <img src="https://i.loli.net/2018/10/25/5bd18a520b625.png" width = "40%" height = "50%" alt="订票"  align=center	 />
+  <img src="https://i.loli.net/2018/10/25/5bd18a6f4dc8b.png" width = "40%" height = "50%" alt="订票"  align=center	 />
+  <img src="https://i.loli.net/2018/10/25/5bd18a8733ad3.png" width = "40%" height = "50%" alt="订票"  align=center	 />
+  <img src="https://i.loli.net/2018/10/25/5bd18a9a68f12.png" width = "40%" height = "50%" alt="订票"  align=center	 />
  
  
   资讯页:
