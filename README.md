@@ -22,28 +22,28 @@
   首页:
 
  -----------------------------------------------------------------------
-  ![样图](https://i.loli.net/2018/10/25/5bd189d18b0dd.png "demo")  订票:
+ <img src="https://i.loli.net/2018/10/25/5bd189d18b0dd.png" width = "50%" height = "50%" alt="首页" align=center />
+  
+  订票:
 
-  ![样图](https://i.loli.net/2018/10/25/5bd18a520b625.png "demo")
-
+<img src="https://i.loli.net/2018/10/25/5bd18a520b625.png" width = "50%" height = "50%" alt="订票" align=center />
  -----------------------------------------------------------------------
 
   
  -----------------------------------------------------------------------
-  ![样图](https://i.loli.net/2018/10/25/5bd18a6f4dc8b.png "demo")
   
+ <img src="https://i.loli.net/2018/10/25/5bd18a6f4dc8b.png" width = "50%" height = "50%" alt="订票" align=center />
  -----------------------------------------------------------------------
-  ![样图](https://i.loli.net/2018/10/25/5bd18a8733ad3.png "demo")
-  
+ 
+  <img src="https://i.loli.net/2018/10/25/5bd18a8733ad3.png" width = "50%" height = "50%" alt="订票" align=center />
  -----------------------------------------------------------------------
-  ![样图](https://i.loli.net/2018/10/25/5bd18a9a68f12.png "demo")
-
+ 
+  <img src="https://i.loli.net/2018/10/25/5bd18a9a68f12.png" width = "50%" height = "50%" alt="订票" align=center />
  -----------------------------------------------------------------------
 
  资讯页:
 
-  ![样图](https://i.loli.net/2018/10/25/5bd18aceab473.png "demo")
-
+<img src="https://i.loli.net/2018/10/25/5bd18aceab473.png" width = "50%" height = "50%" alt="订票" align=center />
  -----------------------------------------------------------------------
 
 
@@ -51,4 +51,4 @@
  
  ----------------------------------------------------------------------- 
 
-  ![样图](https://i.loli.net/2018/10/25/5bd18ae224e36.png "demo")
+  <img src="https://i.loli.net/2018/10/25/5bd18ae224e36.png" width = "50%" height = "50%" alt="订票" align=center />
