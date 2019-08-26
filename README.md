@@ -15,41 +15,12 @@
 
 
 
-
-
-
-
-  首页:
-  
-  
-  
-  
-  
-  <img src="https://i.loli.net/2018/10/25/5bd189d18b0dd.png" width = "40%" height = "50%" alt="首页" align=center />
-  
-  订票:
-  
-  
-  
-  
-  <img src="https://i.loli.net/2018/10/25/5bd18a520b625.png" width = "40%" height = "50%" alt="订票"  align=center	 />
-  <img src="https://i.loli.net/2018/10/25/5bd18a6f4dc8b.png" width = "40%" height = "50%" alt="订票"  align=center	 />
-  <img src="https://i.loli.net/2018/10/25/5bd18a8733ad3.png" width = "40%" height = "50%" alt="订票"  align=center	 />
-  <img src="https://i.loli.net/2018/10/25/5bd18a9a68f12.png" width = "40%" height = "50%" alt="订票"  align=center	 />
- 
- 
-  资讯页:
-  
-  
-  
-  
-  
-  <img src="https://i.loli.net/2018/10/25/5bd18aceab473.png" width = "40%" height = "50%" alt="订票" align=center />
-
-
-  个人中心页:
-  
-  
-  
-  
-  <img src="https://i.loli.net/2018/10/25/5bd18ae224e36.png" width = "40%" height = "50%" alt="订票" align=center />
+<div text="center">
+ <img width="48%" src="https://i.loli.net/2018/10/25/5bd189d18b0dd.png"/>
+ <img width="48%" src="https://i.loli.net/2018/10/25/5bd18a520b625.png"/>
+ <img width="48%" src="https://i.loli.net/2018/10/25/5bd18a6f4dc8b.png"/>
+ <img width="48%" src="https://i.loli.net/2018/10/25/5bd18a8733ad3.png"/>
+ <img width="48%" src="https://i.loli.net/2018/10/25/5bd18a9a68f12.png"/>
+ <img width="48%" src="https://i.loli.net/2018/10/25/5bd18aceab473.png"/>
+ <img width="48%" src="https://i.loli.net/2018/10/25/5bd18ae224e36.png"/>
+</div> 
